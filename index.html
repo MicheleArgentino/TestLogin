@@ -127,6 +127,7 @@
 
 
 	function onLogin(identity) {
+		console.log('start login');
 		
 		var targetDiv = document.querySelector(SFIDWidget.config.target);	
 		
@@ -163,6 +164,8 @@
 		var chemex = document.getElementById("chemex_link");
 		chemex.href = "/datasheets/2014_ChemexBrewGuide.pdf";
 		chemex.innerHTML = 'Datasheet';
+
+		console.log('end login');
 		
 	}
 	
